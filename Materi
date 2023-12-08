@@ -1,0 +1,57 @@
+Strukture kode berguna dalam penulisan variabel.
+Variabel adalah tempat untuk menyimpan sebuah nilai.
+
+seperti pada pelajaran matematika, kita sering menemukan x dan y.
+Nah si x dan y ini disebyt variabel, karena tugasnya menyimpan nilai.
+Jika diibaratkan, variabel seperti kotak yang bisa diisi, isinya adalah data yang kita sebut sebagai nilai(values).
+Kemudian kita dapat memberikan penamaan diatasnya supaya bisa membedakan kotak satu dengan kotak lainnya.
+
+
+Ada dua ketentuan dalam penamaan variabel di JavaScript, yaitu:
+- Nama harus mengandung huruf, angka, atau simbol "$" dan "_"
+- Karakter pertama tidak boleh angka.
+
+Contoh Benar : 
+var nama123 = "Aku Pamungkas";
+
+Contoh salah :
+var 123nama = "Aku Pamungkas";
+
+
+Dalam JavaScript ada yang namanya kaidah "camelCase". Jadi, untuk dua kata seperti "nama" dan "pengguna", penulisannya harus digabungkan.
+
+Ada tiga jenis variabel;
+Variabel var
+Variabel let
+Variabel const
+
+Ketiga jenis variabel diatas punya karakteristik yang berbeda.
+Berikut karakteristik yang membedakan setiap jenis variabel;
+
+1. Scope yaitu cakupan/jangkauan program yang ditandai dengan tanda kurung kurawal atau curly brackets({..})
+Umumnya, variabel dalam suatu scope akan dianggap sebagai local scope sehingga tidak bisa dibaca dari scope lain.
+
+2. Reassingned yaitu apakah suatu variabel bisa diubah nilainya
+
+3. Redeclared yaitu apakah suatu variabel bisa di deklarasi ulang nilainya
+
+4. Hoisting yaitu kondisi suatu variabel yang sudah dideklarasikan, tapi belum mempunyai nilai.
+
+
+
+Variabel Var merupakan jenis variabel yang lawas. Tapi masih dipertahankan oleh banyak programmer untuk menjaga kompatibilitas versi sebelumnya.
+Untuk scope nya
+
+
+
+Variabel Let
+Variabel let diperkenalkan sejak kehadiran ES6/ES2015
+(EcmaScript versi 6 atau EcmaScript yang rilis tahun 2015)
+
+scope dari variabel let ini adalah block scope. Artinya, variabel hanya bisa diakses di dalam scope,
+yang ditandai dalam sebuah kurung karawal, jadi dengan menggunakan variabel let. kita tidak perlu lagi
+berurusan dengan function untuk membuat local scope
+
+Variabel const ini, nilai atau datanya tidak akan berubah dalam kondisi apapun. 
+Karena itulah ia dinamanakn const(konstan)
+Untuk mendefinisikan variabel konstan, kita diwajibkan untuk langsung memasukan nilai dari variabel tersebut.
