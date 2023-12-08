@@ -68,14 +68,12 @@ Karena sebenarnya, dibelakang layar JavaScript mendeklarasikan variabel tersebut
 Tetapi, hal ini berguna karena mengingatkan kita untuk merevisi kode sesuai kaidah yang baik */
 
 //Contoh
-/*
 let message = "Hello"
 function greetings(){
     console.log(meesage)
     let message = "Hello World"
 }
 greetings()
-*/
 //Output: Uncaught ReferenceEror : Cannot acces 'message' before initialization
 
 /* Setelah kode direvisi */
@@ -85,5 +83,6 @@ function greetings(){
     console.log(meesage)
 }
 greetings()
+//Output: Hello World
 
 
