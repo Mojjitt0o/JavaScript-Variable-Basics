@@ -47,16 +47,14 @@ console.log(panggilan)
  Kondisi ini biasanya disebut dengan istilah Temporal Dead Zone (TDZ) */
 
 //Contoh pertama di codesandbox.io
-/*
 nami = "Bot"; //Assignment
 let nami; // Declaration
-console.log(nami);*/
+console.log(nami);
 
 //Contoh pertama di console web browser
-/*
 name ='Bot' //Assignment
 let name; //Decelaration
-console.log(name); */
+console.log(name); 
 // Output: cannot access 'name' before initialization
 
 /* Setelah di revisi kode */
